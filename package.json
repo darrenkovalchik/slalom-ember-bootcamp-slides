@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npm run build; reveal-md presentation/slides.md",
+    "build": "broccoli build presentation",
+    "dev": "concurrently 'broccoli-timepiece presentation' 'reveal-md presentation/slides.md'",
+    "reveal-md": "reveal-md",
+    "broccoli": "broccoli",
+    "broccoli-timepiece": "broccoli-timepiece"
+  },
+  "dependencies": {
+    "reveal-md": "0.0.x",
+    "broccoli": "0.16.x",
+    "broccoli-cli": "1.0.x",
+    "broccoli-concat": "2.2.x",
+    "broccoli-funnel": "1.0.x",
+    "broccoli-merge-trees": "1.1.x"
+  },
+  "devDependencies": {
+    "broccoli-timepiece": "0.3.x",
+    "concurrently": "2.x.x"
+  }
+}
