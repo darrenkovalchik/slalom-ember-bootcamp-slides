@@ -24,6 +24,25 @@
 
 ----
 
+## Who's Using Ember
+
+<ul>
+  <li>Ghost
+  <li>Microsoft
+  <li>Netflix
+  <li>TED
+</ul>
+<ul>
+  <li>Travis CI
+  <li>Twitch
+  <li>Yahoo
+  <li>Zendesk
+</ul>
+
+[Source](http://emberjs.com/ember-users/)
+
+----
+
 ## Oh, and There's Also a Mascot
 
 ![](images/tomster.jpg) <!-- .element: class="fragment" -->
