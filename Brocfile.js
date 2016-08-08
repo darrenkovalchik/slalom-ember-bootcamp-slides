@@ -5,7 +5,7 @@ var MergeTrees = require('broccoli-merge-trees');
 var slides = 'slides';
 slides = concat(slides, {
   outputFile: 'slides.md',
-  inputFiles: [
+  headerFiles: [
     'intro.md',
     'routes.md',
     'controllers.md',
